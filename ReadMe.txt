@@ -1,1 +1,1 @@
-This repository hold the files for the Pipeline Specialist Consultancy Website
+This repository holds the files for the Pipeline Specialist Consultancy Website
