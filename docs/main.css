@@ -24,7 +24,7 @@ nav li{
 }
 
 .headerFlexContainer{
-  padding: 2rem 0rem 0rem 0rem;
+  padding: 2rem 0rem 2rem 0rem;
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
@@ -37,7 +37,7 @@ nav li{
 .name{
   /* flex-grow: 2; */
   width: 67%;
-  margin: 0 1em 0 1em;
+  padding: 0 1em 0 1em;
 }
 
 .name h1{
@@ -62,12 +62,13 @@ nav li{
   width: 33%;
   /* background-color: white; */
   text-align: right;
+  padding: 0 1em 0 1em;
 }
 
 .profilePic img{
   width: 300px;
   height: auto;
-  padding: 0 1em 0 1em;
+  padding: 0;
 }
 
 .introductionFlexContainer{
@@ -142,6 +143,48 @@ nav li{
   width: 7rem;
 }
 
+@media(max-width:925px){
+  *{
+    font-size: 10px;
+  }
+
+  .name h1{
+    font-size: 20px;
+  }
+
+  .name p{
+    font-size: 20px;
+  }
+
+  .profilePic img{
+    width: 100px;
+    padding: 0;
+  }
+
+  .introductionFlexContainer{
+    flex-wrap: wrap;
+  }
+
+  .introduction{
+    flex-grow: 1;
+  }
+
+  .mainFlexContainer{
+    flex-wrap: wrap;
+  }
+  
+  .expertise{
+    flex-basis: 100%;
+  }
+
+  .experience{
+    flex-basis: 100%;
+  }
+
+  .previousAssignments{
+    flex-basis: 100%;
+  }
+}
 
 /* footer{
   background-color: grey;
